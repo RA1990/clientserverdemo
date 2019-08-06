@@ -6,7 +6,7 @@ getData();
 
 function getData(){
   var settings = {
-    url:'../server/getnames.json',
+    url:'../server/favfoodage.json',
     method:'GET',
     dataType:'json',
     success:handleDataFromServer,
